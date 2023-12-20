@@ -3,4 +3,4 @@ project(Problems C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Problems _2_addTwoNumbersProblem.c)
+add_executable(Problems _3_longestSubstringProblem.c)

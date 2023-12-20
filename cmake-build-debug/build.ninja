@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/vladislav/CLionProjects/Leetcode-Problems/cmake-buil
 
 build cmake_object_order_depends_target_Problems: phony || CMakeFiles/Problems.dir
 
-build CMakeFiles/Problems.dir/_2_addTwoNumbersProblem.c.o: C_COMPILER__Problems_unscanned_Debug /home/vladislav/CLionProjects/Leetcode-Problems/_2_addTwoNumbersProblem.c || cmake_object_order_depends_target_Problems
-  DEP_FILE = CMakeFiles/Problems.dir/_2_addTwoNumbersProblem.c.o.d
+build CMakeFiles/Problems.dir/_3_longestSubstringProblem.c.o: C_COMPILER__Problems_unscanned_Debug /home/vladislav/CLionProjects/Leetcode-Problems/_3_longestSubstringProblem.c || cmake_object_order_depends_target_Problems
+  DEP_FILE = CMakeFiles/Problems.dir/_3_longestSubstringProblem.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Problems.dir
   OBJECT_FILE_DIR = CMakeFiles/Problems.dir
@@ -63,7 +63,7 @@ build CMakeFiles/Problems.dir/_2_addTwoNumbersProblem.c.o: C_COMPILER__Problems_
 #############################################
 # Link the executable Problems
 
-build Problems: C_EXECUTABLE_LINKER__Problems_Debug CMakeFiles/Problems.dir/_2_addTwoNumbersProblem.c.o
+build Problems: C_EXECUTABLE_LINKER__Problems_Debug CMakeFiles/Problems.dir/_3_longestSubstringProblem.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Problems.dir
   POST_BUILD = :
