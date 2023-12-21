@@ -3,4 +3,5 @@ project(Problems C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Problems _3_longestSubstringProblem.c)
+add_executable(Problems _4_medianOfSortedArrays.c)
+target_link_libraries(Problems m)
