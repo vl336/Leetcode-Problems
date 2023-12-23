@@ -4,36 +4,8 @@
 #include <assert.h>
 #include <stdlib.h>
 
-#define MAX(x,y) x > y ? x : y
-
-bool isPalindrome(char* s, int len) {
-    for (int i = 0; i < len / 2; ++i) {
-        if(s[i] != s[len-i-1]) return false;
-    }
-    return true;
-}
-
-//char* longestPalindrome(char *s) {
-//    int len = strlen(s);
-//    char *retStart = NULL;
-//    int retLen = -1;
-//    for (int i = 0; i < len; ++i) {
-//        for (int j = 1; j <= len - i; ++j) {
-//            if (isPalindrome(&(s[i]), j)) {
-//                if (j > retLen) {
-//                    retLen = j;
-//                    retStart = &(s[i]);
-//                }
-//            }
-//        }
-//    }
-//    char *res = malloc(sizeof(char) * (retLen + 1));
-//    res[retLen] = '\0';
-//    for (int i = 0; i < retLen; ++i) {
-//        res[i] = retStart[i];
-//    }
-//    return res;
-//}
+// https://leetcode.com/problems/longest-palindromic-substring/
+// 22.12.23 - Vladislav Ershov
 
 
 char* longestPalindrome(char *s) {

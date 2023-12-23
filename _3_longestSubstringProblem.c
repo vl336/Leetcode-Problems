@@ -2,7 +2,7 @@
 #include <assert.h>
 
 //https://leetcode.com/problems/longest-substring-without-repeating-characters/
-// 20.12 - Vladislav Ershov
+// 20.12.23 - Vladislav Ershov
 
 #define MAX(a, b) a >= b ? a : b 
 

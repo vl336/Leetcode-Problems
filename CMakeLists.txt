@@ -3,5 +3,5 @@ project(Problems C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Problems _5_longestPalindromicSubstring.c)
+add_executable(Problems _1492_kthFactorOfN.c)
 target_link_libraries(Problems m)

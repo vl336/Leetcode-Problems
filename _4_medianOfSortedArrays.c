@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 // https://leetcode.com/problems/median-of-two-sorted-arrays/
-// 21.12 - Vladislav Ershov
+// 21.12.23 - Vladislav Ershov
 
 #define AVG(x, y) ((x+y) / 2.0)
 
