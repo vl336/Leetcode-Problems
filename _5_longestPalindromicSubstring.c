@@ -40,9 +40,9 @@ char* longestPalindrome(char *s) {
 #define TEST(s, exp) assert(strcmp(longestPalindrome(s), exp) == 0)
 
 int main(){
-//    TEST("babad", "bab");
-//    TEST("cbbd", "bb");
-//    TEST("a", "a");
-//    TEST("bb", "bb");
+    TEST("babad", "bab");
+    TEST("cbbd", "bb");
+    TEST("a", "a");
+    TEST("bb", "bb");
     TEST("ac", "a");
 }

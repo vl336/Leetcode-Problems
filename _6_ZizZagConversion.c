@@ -54,9 +54,9 @@ char* convert(char* s, int numRows) {
 #define TEST(s, n, exp) assert(strcmp(convert(s, n), exp) == 0)
 
 int main() {
-//   TEST("PAYPALISHIRING", 3, "PAHNAPLSIIGYIR");
-//   TEST("PAYPALISHIRING", 7, "PNAIGYRPIAHLSI");
-//   TEST("A", 3, "A");
-//   TEST("AB", 1, "AB");
+   TEST("PAYPALISHIRING", 3, "PAHNAPLSIIGYIR");
+   TEST("PAYPALISHIRING", 7, "PNAIGYRPIAHLSI");
+   TEST("A", 3, "A");
+   TEST("AB", 1, "AB");
    TEST("AB", 3, "AB");
 }
