@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/vladislav/CLionProjects/Leetcode-Problems/cmake-buil
 
 build cmake_object_order_depends_target_Problems: phony || CMakeFiles/Problems.dir
 
-build CMakeFiles/Problems.dir/_7_reverseInteger.c.o: C_COMPILER__Problems_unscanned_Debug /home/vladislav/CLionProjects/Leetcode-Problems/_7_reverseInteger.c || cmake_object_order_depends_target_Problems
-  DEP_FILE = CMakeFiles/Problems.dir/_7_reverseInteger.c.o.d
+build CMakeFiles/Problems.dir/_8_stringToInteger.c.o: C_COMPILER__Problems_unscanned_Debug /home/vladislav/CLionProjects/Leetcode-Problems/_8_stringToInteger.c || cmake_object_order_depends_target_Problems
+  DEP_FILE = CMakeFiles/Problems.dir/_8_stringToInteger.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Problems.dir
   OBJECT_FILE_DIR = CMakeFiles/Problems.dir
@@ -63,7 +63,7 @@ build CMakeFiles/Problems.dir/_7_reverseInteger.c.o: C_COMPILER__Problems_unscan
 #############################################
 # Link the executable Problems
 
-build Problems: C_EXECUTABLE_LINKER__Problems_Debug CMakeFiles/Problems.dir/_7_reverseInteger.c.o
+build Problems: C_EXECUTABLE_LINKER__Problems_Debug CMakeFiles/Problems.dir/_8_stringToInteger.c.o
   FLAGS = -g
   LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/Problems.dir

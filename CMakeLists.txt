@@ -3,5 +3,5 @@ project(Problems C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Problems _7_reverseInteger.c)
+add_executable(Problems _8_stringToInteger.c)
 target_link_libraries(Problems m)
